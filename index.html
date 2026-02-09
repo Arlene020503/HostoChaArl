@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hopitalchaarl</title>
     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.css">
 </head>
 <body>
-    <div class="navbar">
+     <div class="navbar">
         <nav>
             <img src="images/logo.avif" alt="logo" class="logo" >
         </nav>
@@ -27,16 +28,52 @@
             <ul>
                 
             </ul>
-            <li>
-                <select>
-                    <option value="#pages">Pages</option>
-                    <option value="#subpage1">Sous-page 1</option>
-                    <option value="#subpage2">Sous-page 2</option>
-                </select>
-            </li>
+                   <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
         </ul>
         <a class="btn-primary" href="#contact">Contact</a>
+    </div> 
+
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
+  </div> -->
+</nav>
     <main>
         <section class="hero">
             <div class="hero-item">
@@ -331,10 +368,10 @@
                 <p>Téléphone: +225 00 00 00 00 00 </p>
                 <p>Email: info@hopitalchaarl.fr</p>
             </div>
-            <div class="footer-section">
+            <div class="footer-section ">
                 <h3>Liens utiles</h3>
-                <ul>
-                    <li><a href="#about">À propos</a></li>
+                <ul >
+                    <li><a href="#about ">À propos</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -344,5 +381,7 @@
             <p>&copy; 2026 Hôpital ChaArl. Tous droits réservés.</p>
         </div>
     </footer>
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.js"></script>
 </body>
 </html>
